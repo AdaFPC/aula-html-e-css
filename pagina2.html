@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Página 2</title>
+    <nav>
+ <link rel="stylesheet" href="CSS/pag2.css"/>
+    </nav>
+    <style>
+        body{
+            color: midnightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bem vindo a minha página</h1>
+    </header>
+    <div id="principal">
+        <article>
+    <table><!--criar tabela-->
+        <tr> <th>as</th> <th>as</th> </tr><!-- tr cada linha da tabela-->
+        <tr> <td>as</td> <td>as</td> </tr><!-- td cada célula, th cabeçalho da tabela-->
+
+    </table>
+    <a href="index.html">Voltar para o index</a>
+</article>
+
+<aside>
+    <section>
+        <form action="processa.php" method="post"> <!--tag para fazer formularios-->
+            <label>text</label>
+            <input type="text" name="texto1" placeholder="Eu sou um input do tipo text"><!--exemplo de formulário onde vc coloca só o espaço para ser preenchido-->
+            <br>
+            <label>password</label>
+            <input type="password" name="senha"> <!--exemplo de formulário para preencher senha, onde esconde os caracteres-->
+            <br>
+            <label>oculto</label><!--essa label pede um valor-->
+            <input type="hidden" name="informacao_oculta" value="mensagem oculta"><!--coloca um campo vazio no formulario, que não aparece-->
+<br>
+            <label>select</label>
+            <select name="selecao"><!--exemplo para colocar multiplas escolhas no formulário-->
+                <option value="1">Opção 1</option>
+                <option value="2">Opção 2</option>
+            </select>
+
+            <br>
+
+            <label>Radio</label><br><!--esse exemplo de formulário só permite marcar uma opção-->
+            <input type="radio" name="radio1" value="1">Valor 1<br>
+            <input type="radio" name="radio1" value="2">Valor 2
+
+            <br>
+            <label>checkbox</label><br><!--esse exemplo permite escolher mais de uma opção-->
+            <input type="checkbox" name="ck1" value="1" checked>Valor 1<br><!--quando colocar checked a opção já aparece marcada-->
+            <input type="checkbox" name="ck1" value="2">Valor 2<br>
+            <input type="checkbox" name="ck1" value="3">Valor 3<br>
+            <br>
+            <label>botão</label><br><!--cria o botão para enviar o formulãrio -->
+            <input type="submit" value="Enviar" name="submit">
+            <img src="img/mokona.jpg" width="600px"><!--width muda o tamanho da imagem height mudo a altura -->
+
+        </form>
+    </section>
+</aside>
+</div>
+</body>
+<div>
+
+</div>
+<footer>
+    "Isso é tudo pessoal"
+</footer>
+</html>
